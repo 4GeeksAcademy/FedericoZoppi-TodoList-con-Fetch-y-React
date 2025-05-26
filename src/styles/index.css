@@ -1,11 +1,75 @@
-/* 
+body {
+  background-color: #f4f4f4;
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.todo-container {
+  background: white;
+  padding: 2rem;
+  margin-top: 3rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-*/
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.input-section {
+  margin-bottom: 1rem;
+}
+
+.input-section input {
+    margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-section button {
+  padding: 0.5rem 0.5rem;
+  background: #2c7be5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #e9ecef;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clear {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.6rem;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.empty {
+  text-align: center;
+  color: #888;
+  padding: 1rem;
+}
