@@ -9,7 +9,6 @@ import "bootstrap"
 import '../styles/index.css'
 
 // components
-import Home from './components/Home';
 import TodoList from './components/TodoList';
 
 ReactDOM.createRoot(document.getElementById('root')).render(

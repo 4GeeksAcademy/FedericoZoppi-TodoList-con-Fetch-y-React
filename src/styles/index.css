@@ -34,12 +34,18 @@ h1 {
 }
 
 .input-section button {
+  display: flex;
+  justify-content: center;
   padding: 0.5rem 0.5rem;
   background: #2c7be5;
   color: white;
-  border: none;
-  border-radius: 5px;
   cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  justify-content: end;
+  border: none;
 }
 
 ul {
@@ -73,3 +79,14 @@ li {
   color: #888;
   padding: 1rem;
 }
+
+.botonAgregar {
+  margin-top: 2rem;
+}
+
+.spanes{
+  display: flex;
+  justify-content: start;
+}
+
+
